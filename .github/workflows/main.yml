@@ -8,7 +8,7 @@ on:
     - cron: '0 18,10 * * *'
 
 jobs:
-  tieba_sign:
+  pojie_sign:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout codes'
@@ -18,7 +18,9 @@ jobs:
         with:
           python-version: '3.6'
       - name: 'Install dependencies'
-        run: python -m pip install --upgrade requests
+        run: |
+          python -m pip install --upgrade requests
+          pip install beautifulsoup4
       - name: 'Start Sign'
         env:
           POJIE: ${{ secrets.POJIE }}
