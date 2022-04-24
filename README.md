@@ -1,7 +1,7 @@
 # 吾爱破解自动签到Github Action 版
 
 ## 今日签到状态
-![52Pojie Auto Sign]https://github.com/HailongJson/52pojie_Sign/workflows/52Pojie%20Auto%20Sign/badge.svg
+![52Pojie Auto Sign](https://github.com/HailongJson/52pojie_Sign/workflows/52Pojie%20Auto%20Sign/badge.svg)
 
 ### 使用说明
 - FORK该仓库，然后点击你的仓库右上角的 Settings，找到 Secrets 这一项，点击action添加一个密钥。其中 POJIE 存放你的 COOKIE
